@@ -21,7 +21,16 @@ h2 {
 h3 {
     font-size: 1.25rem;
 }
+a:link, a:visited {
+    color: #9abcf8;
+    text-decoration: none;
 
+}
+a:hover {
+    color: #13213a;
+    text-decoration: underline;
+
+}
 
 
 
@@ -47,4 +56,21 @@ h3 {
     .col-span-4 {
         grid-column: span 4;
     }
+}
+
+/***** Components *****/
+.button:link, .button:visited {
+    color: white;
+    background-color:#9abcf8;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, .15);
+    display: inline-block;
+    margin: 0 .25rem .25rem 0;
+    transition: background-color 0.5s ease;
+}
+.button:hover {
+    background-color: #13213a;
 }
